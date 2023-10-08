@@ -11,6 +11,14 @@ body {
   scroll-padding-top: 10vh;
   scroll-behavior: smooth;
 }
+
+/* mobile */
+@media (max-width: 800px) {
+  nav:first-of-type {
+    display: none;
+  }
+}
+
 header {
   top: 0;
   left: 0;
@@ -27,7 +35,7 @@ header {
   background: #0004;
   backdrop-filter: blur(1rem);
 }
-p {
+#about-p {
   line-height: 1.75rem;
   max-width: 60ch;
   font-family: sans-serif;
@@ -120,6 +128,9 @@ main {
 #unity-container.unity-mobile {
   width: 100%;
   height: 100%;
+}
+canvas {
+  border-radius: 2rem !important;
 }
 #unity-canvas {
   background: #231f20;
