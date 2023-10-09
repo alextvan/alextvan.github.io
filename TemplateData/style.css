@@ -12,9 +12,9 @@ body {
   scroll-behavior: smooth;
 }
 
-/* mobile */
+/* mobile for smol screens */
 @media (max-width: 800px) {
-  nav:first-of-type {
+  #page-navigation {
     display: none;
   }
 }
@@ -90,6 +90,7 @@ section {
 }
 nav {
   display: flex;
+  width: 10rem;
   align-items: center;
   gap: 1rem;
 }
